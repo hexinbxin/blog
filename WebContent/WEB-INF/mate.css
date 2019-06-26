@@ -1,0 +1,15 @@
+@charset "UTF-8";
+body{
+	
+	
+  background: linear-gradient(to right, rgba(127,255,212,0), rgba(127,255,212,1)); 
+}
+.sub{
+	
+	margin-top:50px;
+	
+}
+#msg{
+	color:#4586e7;
+	font-weight:normal;
+}

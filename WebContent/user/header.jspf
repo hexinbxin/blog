@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>博客首页</title>
+<link rel="stylesheet" type="text/css" href="../css/style.css" />
+<link rel="stylesheet" type="text/css" href="../css/index.css" />
+</head>
+
+<body>
+	<div id="container">
+		<div id="header">
+			<div id="title">
+				<img src="../images/logo.jpg" width="180" height="80" alt="logo" />
+				<div>个人博客</div>
+			</div>
+			<div id="menu">
+				<ul id="nav">
+					<li><a href="../mb/index.html">首页</a>&nbsp;&nbsp;|</li>
+					<li><a href="../ArticleShow">目录</a>&nbsp;&nbsp;|</li>
+					<li><a href="blog_add.jsp">写博文</a>&nbsp;&nbsp;|</li>
+					<li><a href="../login.jsp">登录</a>&nbsp;&nbsp;|</li>
+					<li><a href="../register.jsp">注册</a>&nbsp;&nbsp;|</li>
+					<li><a href="../mate.jsp">留言</a>&nbsp;&nbsp;|</li>
+					<li><a href="../Select">查看留言</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div id="banner"></div>
+		<div id="left">
+			<h1>个人头像</h1>
+			<div class="leftbox">
+				<img src="../images/tp.jpg" width="98%" height="98%" />
+			</div>
+			<h1>分类目录</h1>
+			<div class="leftbox">
+				<ul>
+					<li><a href="#">热点话题</a></li>
+					<li><a href="#">成长经历</a></li>
+					<li><a href="#">文学欣赏</a></li>
+					<li><a href="#">文艺采集</a></li>
+					<li><a href="#">体育焦点</a></li>
+				</ul>
+			</div>
+		</div>

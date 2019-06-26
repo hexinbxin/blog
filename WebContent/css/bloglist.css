@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main table{
+	position:relative;
+	top:10px;
+	left:10px;
+}
+
+#main table td{
+	border-bottom:dashed #CCC 1px;
+}

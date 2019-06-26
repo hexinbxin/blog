@@ -1,0 +1,10 @@
+@charset "UTF-8";
+.name{
+	color:#df6820;
+	font-size:30px;
+	margin-left:100px;
+}
+
+body{
+	background-color:#6dc2c2;
+}
